@@ -10,3 +10,6 @@
 [submodule "bundle/MRU"]
 	path = bundle/MRU
 	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "bundle/twilight"]
+	path = bundle/twilight
+	url = https://github.com/scottymoon/vim-twilight.git
