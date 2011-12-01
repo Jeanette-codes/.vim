@@ -13,3 +13,6 @@
 [submodule "bundle/twilight"]
 	path = bundle/twilight
 	url = https://github.com/scottymoon/vim-twilight.git
+[submodule "bundle/minibuffexp"]
+	path = bundle/minibuffexp
+	url = https://github.com/fholgado/minibufexpl.vim.git
