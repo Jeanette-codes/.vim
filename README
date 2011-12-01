@@ -3,6 +3,7 @@ Installation:
 
 Create Symlinks:
    ln -s ~/.vim/vimrc ~/.vimrc
+   ln -s snippets/css/css.snippets snippets/css.snippets
 
 
 Further Reading from http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/:
