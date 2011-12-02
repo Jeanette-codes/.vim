@@ -16,3 +16,6 @@
 [submodule "bundle/minibuffexp"]
 	path = bundle/minibuffexp
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
