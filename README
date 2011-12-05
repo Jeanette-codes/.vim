@@ -4,7 +4,7 @@ Installation:
 Create Symlinks:
    ln -s ~/.vim/vimrc ~/.vimrc
    ln -s snippets/css/css.snippets snippets/css.snippets
-
+   ln -s ~/.vim/bundle/autocomppop/autoload/adp.vim ~/.vim/autoload/adp.vim
 
 Further Reading from http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/:
 
