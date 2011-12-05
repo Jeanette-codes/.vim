@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 colors twilight
 set number
 set nocompatible               " be iMproved
@@ -22,5 +25,8 @@ set noswapfile     "no swap files
 
 au VimEnter * silent! cd %:h
 
-let mapleader=","
+set showcmd
+let mapleader = ","
+let g:sparkup='~/.vim/bundle/vim-sparkup' 
+let g:sparkupExecuteMapping='<D-e>'
 imap ii <Esc>
