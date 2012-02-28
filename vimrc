@@ -25,8 +25,14 @@ set noswapfile     "no swap files
 
 au VimEnter * silent! cd %:h
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 set showcmd
 let mapleader = ","
 let g:sparkup='~/.vim/bundle/vim-sparkup' 
 let g:sparkupExecuteMapping='<D-e>'
 imap ii <Esc>
+let twitvim_login = "nakedandshiny/ccEBps3Z"
