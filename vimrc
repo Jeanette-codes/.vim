@@ -35,4 +35,3 @@ let mapleader = ","
 let g:sparkup='~/.vim/bundle/vim-sparkup' 
 let g:sparkupExecuteMapping='<D-e>'
 imap ii <Esc>
-let twitvim_login = "nakedandshiny/ccEBps3Z"
