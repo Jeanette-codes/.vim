@@ -4,6 +4,7 @@ call pathogen#helptags()
 colorscheme github
 :imap ii <Esc>
 set transparency=5
+set number
 
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
