@@ -1,3 +1,4 @@
+filetype on
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -25,3 +26,6 @@ endif
 
 "syntax highlight for scss files
 au BufRead,BufNewFile *.scss set filetype=scss
+
+"alias tagbar opening
+nmap <F8> :TagbarToggle<CR>
