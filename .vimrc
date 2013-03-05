@@ -22,3 +22,5 @@ if has("gui_running")
 set guioptions-=T
 endif
 
+"syntax highlight for scss files
+au BufRead,BufNewFile *.scss set filetype=scss
