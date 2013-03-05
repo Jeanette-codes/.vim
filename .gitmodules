@@ -10,9 +10,6 @@
 [submodule "bundle/MRU"]
 	path = bundle/MRU
 	url = https://github.com/vim-scripts/mru.vim.git
-[submodule "bundle/twilight"]
-	path = bundle/twilight
-	url = https://github.com/scottymoon/vim-twilight.git
 [submodule "bundle/minibuffexp"]
 	path = bundle/minibuffexp
 	url = https://github.com/fholgado/minibufexpl.vim.git
@@ -31,12 +28,6 @@
 [submodule "bundle/autocomppop"]
 	path = bundle/autocomppop
 	url = https://github.com/toupeira/vim-autocomplpop.git
-[submodule "bundle/tetris"]
-	path = bundle/tetris
-	url = https://github.com/vim-scripts/TeTrIs.vim.git
-[submodule "bundle/twitvim"]
-	path = bundle/twitvim
-	url = https://github.com/vim-scripts/TwitVim.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/tsaleh/vim-matchit.git
