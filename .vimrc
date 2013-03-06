@@ -1,4 +1,5 @@
 filetype on
+set showcmd
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -6,6 +7,8 @@ colorscheme github
 :imap ii <Esc>
 set transparency=5
 set number
+
+let mapleader = ","
 
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
@@ -29,3 +32,9 @@ au BufRead,BufNewFile *.scss set filetype=scss
 
 "alias tagbar opening
 nmap <F8> :TagbarToggle<CR>
+
+"git gutter settings
+highlight clear signcolumn
+let g:gitgutter_enabled = 0
+nmap <leader>gu :GitGutterToggle<CR>
+
