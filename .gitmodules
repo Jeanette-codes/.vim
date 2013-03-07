@@ -49,3 +49,6 @@
 [submodule "bundle/git-gutter"]
 	path = bundle/git-gutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/match-tag-always"]
+	path = bundle/match-tag-always
+	url = https://github.com/Valloric/MatchTagAlways.git

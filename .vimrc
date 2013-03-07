@@ -1,11 +1,14 @@
 filetype on
+filetype plugin on
+filetype indent on
+
 set showcmd
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 colorscheme github
 :imap ii <Esc>
-set transparency=5
+set transparency=13
 set number
 
 let mapleader = ","
@@ -38,3 +41,11 @@ highlight clear signcolumn
 let g:gitgutter_enabled = 0
 nmap <leader>gu :GitGutterToggle<CR>
 
+"setting tab spacing
+set expandtab
+set tabstop=3
+set softtabstop=3
+set shiftwidth=3
+set smarttab
+
+:let b:match_ignorecase = 1
