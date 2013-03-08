@@ -2,6 +2,14 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" So code kit will work
+set nobackup
+set nowritebackup
+set noswapfile
+
+" reloads .vimrc when it's changed
+au! BufWritePost .vimrc source %
+
 set showcmd
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
