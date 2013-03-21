@@ -52,3 +52,9 @@
 [submodule "bundle/match-tag-always"]
 	path = bundle/match-tag-always
 	url = https://github.com/Valloric/MatchTagAlways.git
+[submodule "bundle/nerd-tabs"]
+	path = bundle/nerd-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/buffergator"]
+	path = bundle/buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git

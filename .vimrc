@@ -21,17 +21,33 @@ set number
 
 let mapleader = ","
 
+"" Searching
+set hlsearch      " highlight matches
+set incsearch     " incremental searching
+set ignorecase    " searches are case insensitive...
+set smartcase     " ... unless they contain at least one capital letter
+
 " Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
-nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
-nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
+nmap <silent> <c-k> :wincmd k<CR>                                                                                                           
+nmap <silent> <c-j> :wincmd j<CR>                                                                                                            
+nmap <silent> <c-h> :wincmd h<CR>                                                                                                         
 nmap <silent> <c-l> :wincmd l<CR>
 
-"opens nerdtree automatically on startup
-autocmd VimEnter * NERDTree ~/sites/
-autocmd VimEnter * wincmd p
+map <Leader>n :NERDTreeTabsToggle<cr>
+
+" NERDtree settings
+let NERDTreeShowHidden=1 
+let g:nerdtree_tabs_open_on_console_startup = 1
+let g:nerdtree_tabs_open_on_gui_startup = 1
+let g:nerdtree_tabs_no_startup_for_diff = 1
+let g:nerdtree_tabs_smart_startup_focus = 1
+let g:nerdtree_tabs_autoclose = 1
+let NERDTreeIgnore=['\~$', '\.svn$', '\.git$', '\.swp$']
 let NERDTreeShowBookmarks=1
 let NERDTreeShowFiles=1
+
+"au GUIenter * NERDTreeTabsOpen 
+au vimenter * NERDTree
 
 "turns off toolbar
 if has("gui_running")
@@ -42,7 +58,7 @@ endif
 au BufRead,BufNewFile *.scss set filetype=scss
 
 "alias tagbar opening
-nmap <F8> :TagbarToggle<CR>
+nmap <Leader>t :TagbarToggle<CR>
 
 "git gutter settings
 highlight clear signcolumn
@@ -57,3 +73,4 @@ set shiftwidth=3
 set smarttab
 
 :let b:match_ignorecase = 1
+set scrolloff=3 " Keep 3 lines below and above the cursor
