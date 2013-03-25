@@ -47,7 +47,7 @@ let NERDTreeShowBookmarks=1
 let NERDTreeShowFiles=1
 
 "au GUIenter * NERDTreeTabsOpen 
-au vimenter * NERDTree
+"au vimenter * NERDTree
 
 "turns off toolbar
 if has("gui_running")
