@@ -54,8 +54,10 @@ if has("gui_running")
 set guioptions-=T
 endif
 
-"syntax highlight for scss files
+"syntax highlight 
 au BufRead,BufNewFile *.scss set filetype=scss
+au BufRead,BufNewFile *.hbs set filetype=handlebars
+au BufRead,BufNewFile *.jade set filetype=jade
 
 "alias tagbar opening
 nmap <Leader>t :TagbarToggle<CR>
