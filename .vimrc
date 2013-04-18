@@ -16,7 +16,6 @@ call pathogen#helptags()
 
 colorscheme github
 :imap ii <Esc>
-set transparency=13
 set number
 
 let mapleader = ","
@@ -76,3 +75,7 @@ set smarttab
 
 :let b:match_ignorecase = 1
 set scrolloff=3 " Keep 3 lines below and above the cursor
+
+" Treat <li> and <p> tags like the block tags they are
+let g:html_indent_tags = 'li\|p'
+
