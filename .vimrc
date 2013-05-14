@@ -79,3 +79,6 @@ set scrolloff=3 " Keep 3 lines below and above the cursor
 " Treat <li> and <p> tags like the block tags they are
 let g:html_indent_tags = 'li\|p'
 
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
+
+echom ">^.^<"
