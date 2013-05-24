@@ -81,4 +81,7 @@ let g:html_indent_tags = 'li\|p'
 
 autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
 
+nmap <Leader>c exe iconsole.log();iihha
+
+
 echom ">^.^<"
