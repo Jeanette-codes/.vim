@@ -10,9 +10,6 @@
 [submodule "bundle/MRU"]
 	path = bundle/MRU
 	url = https://github.com/vim-scripts/mru.vim.git
-[submodule "bundle/minibuffexp"]
-	path = bundle/minibuffexp
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -28,33 +25,18 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/tsaleh/vim-matchit.git
-[submodule "bundle/colorschemes"]
-	path = bundle/colorschemes
-	url = git@github.com:flazz/vim-colorschemes.git
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = https://github.com/cakebaker/scss-syntax.vim.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/closetag"]
 	path = bundle/closetag
 	url = https://github.com/docunext/closetag.vim.git
-[submodule "bundle/git-gutter"]
-	path = bundle/git-gutter
-	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/match-tag-always"]
 	path = bundle/match-tag-always
 	url = https://github.com/Valloric/MatchTagAlways.git
-[submodule "bundle/nerd-tabs"]
-	path = bundle/nerd-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs.git
-[submodule "bundle/buffergator"]
-	path = bundle/buffergator
-	url = https://github.com/jeetsukumaran/vim-buffergator.git
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = https://github.com/vim-scripts/vimwiki.git
@@ -64,9 +46,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = https://github.com/nono/vim-handlebars.git
-[submodule "bundle/funcoo"]
-	path = bundle/funcoo
-	url = https://github.com/rizzatti/funcoo.vim.git
 [submodule "bundle/dash"]
 	path = bundle/dash
 	url = https://github.com/rizzatti/dash.vim.git
